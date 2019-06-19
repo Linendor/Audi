@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HomeComponent} from './home/home.component';
+import {HomeComponent} from './home/home.component';
 import {ModelsComponent} from './models/models.component';
 import {ServicesComponent} from './services/services.component';
-
-
+import {CodigoComponent } from './codigo/codigo.component';
 
 const routes: Routes = [
 {path:'home', component: HomeComponent },
 {path:'models', component: ModelsComponent},
 {path: 'services', component: ServicesComponent},
+{path:'codigo',component:CodigoComponent },
 {path: '**', component: HomeComponent}
 
 

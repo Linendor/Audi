@@ -7,12 +7,16 @@ import { HomeComponent } from './home/home.component';
 import { ServicesComponent } from './services/services.component';
 import { ModelsComponent } from './models/models.component';
 
+import { CodigoComponent } from './codigo/codigo.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ServicesComponent,
-    ModelsComponent
+    ModelsComponent,
+    
+    CodigoComponent
   ],
   imports: [
     BrowserModule,
